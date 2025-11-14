@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+  
+  display: flex;
+  background-color: rgb(128, 17, 17);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#wrapper {
+    display: flex;
+
+    
+    border: 1px solid rgba(0, 0, 0, 0.448);
+    border-radius: 7px;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    background: linear-gradient(rgb(239, 66, 66), rgb(153, 58, 58));
+
+    box-shadow: 0 6px 20px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    padding: 20px 40px;
+    gap: 20px 0px; /* row gap | column gap */   
+}
+
+#wrapper:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+
+  /* background-color: rgba(200, 129, 36, 0.648) */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  /* border: 1px solid black; */
+  
+  gap: 10px;
+}
+
+form#fill-task > #input-text {
+  border: none;
+  border-radius: 3px;
+  
+  width: 240px;
+  
+  text-align: center;
+  padding: 4px;
+}
+
+#button {
+  border: none;
+  background: #eac5c5;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#button:hover {
+  background: #ff8b8b;
+  transform: scale(1.05);
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  user-select: none; /* remove the cursor change when hovering on each element of the list*/
+  cursor: pointer;
+}
+
+ul li::before {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  
+}
+
+
+/** ################################### */
+/** ################################### */
+/** ################################### */
+/** ################################### */
