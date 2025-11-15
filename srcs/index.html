@@ -5,6 +5,7 @@
 <head>
     <title>To-Do list</title>
     <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -12,17 +13,18 @@
     <main id="wrapper">
         <h1 id="header-name">To-Do list <img src="../images/icon.png"> </h1>
 
-        <form id="fill-task">
+        <form id="fill-task" onsubmit="AddTask(event)">
             <input id="input-text" type="text" placeholder="Add your task"/>
             <input id="button" type="submit" value="Add"/>
         </form>
         <ul id="list-container">
-            <li class="checked">Task 1</li>
+            <!-- <li class="checked">Task 1</li>
             <li>Task 2</li>
-            <li>Task 3</li>
+            <li>Task 3</li> -->
         </ul>
 
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
