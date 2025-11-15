@@ -47,7 +47,7 @@ h1 {
 h1 img {
   align-self: center;
   width: 45px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 form {
@@ -93,7 +93,7 @@ ul li {
   list-style: none;
 
   font-size: 17px;
-  margin: 12px 8px 12px 50px;
+  margin: 8px 8px 12px 50px;
   user-select: none; /* remove the cursor change when hovering on each element of the list*/
   cursor: pointer;
 }
