@@ -1,44 +1,32 @@
+
 # **TaskFlow — Simple & Stylish To-Do List Web App**
 
-![TaskFlow Screenshot](images/Preview.png)
+A sleek and interactive **To-Do List web app** built with **HTML, CSS & JavaScript**.  
 
-A clean and intuitive **task management web app** built with **HTML, CSS, and JavaScript**.  
-TaskFlow helps you stay organized with a smooth UI, interactive task handling, and a fully responsive layout.
-
----
-
-##  **Features**
-
-✔️ Add new tasks  
-✔️ Mark tasks as completed  
-✔️ Remove tasks  
-✔️ Smooth UI interactions  
-✔️ Responsive and minimalist design  
-✔️ Fully built using **vanilla JavaScript**
+![TaskFlow Screenshot](/images/Preview.png)
 
 ---
 
-##  **Tech Stack**
+## ✨ Features
 
-- **HTML5** for structure  
-- **CSS3** (custom styling, flexbox, animations)  
-- **JavaScript** for logic and dynamic interaction  
-
----
-
-## 📂 **Project Structure**
-
-```
-📁 ToDoList/
-│── index.html
-│── styles.css
-│── script.js
-└── images/
-```
+- ✅ **Add Tasks** – Quickly add tasks with input validation (min 2, max 20 characters)  
+- ✔️ **Mark as Completed** – Strike-through and checkmark for finished tasks  
+- ❌ **Delete Tasks** – Remove tasks easily with a cross icon  
+- 💾 **Persistent Storage** – Tasks saved in **localStorage**, so they survive page refreshes  
+- 🎯 **Animations** – Shake animation for invalid inputs & smooth hover effects
 
 ---
 
-## ⚙️ **How to Use**
+## 🛠️ Technologies & Skills Learned
+
+- **HTML5** – Forms, inputs, semantic tags, lists (`<ul>`, `<li>`)  
+- **CSS3** – Flexbox layouts, gradients, transitions, hover effects, animations, pseudo-elements (`::before`)  
+- **JavaScript** – DOM manipulation, event handling (`click`, `submit`), `classList.toggle`, `parentElement.remove()`, `localStorage`  
+- **Best Practices** – Separation of concerns, responsive design, user-friendly feedback
+
+---
+
+## 🚀 How to Run
 
 1. Clone the repository:
    ```bash
@@ -46,24 +34,3 @@ TaskFlow helps you stay organized with a smooth UI, interactive task handling, a
    ```
 2. Open `index.html` in your browser  
 3. Start adding your tasks — simple as that!
-
----
-
-## **Future Improvements**
-
-- Local storage support  
-- Dark mode  
-- Custom categories & filters  
-- Editable tasks  
-
----
-
-##  **Contributions**
-
-Contributions, issues, and feature requests are welcome!
-
----
-
-##  **Show Your Support**
-
-If you like this project, give it a ⭐ on GitHub — it helps a lot!
