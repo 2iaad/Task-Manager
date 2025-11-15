@@ -6,17 +6,15 @@ function AddTask(event) // pass the event to remove the "?"
     /**
      *      By default, submitting a form sends a GET request to the same URL
 
-            [User types "Task"] 
+            [User types "Task" as input] 
                     v
             <form> submits
                     v
-            Browser sends GET request to URL
-                    v
-            http://127.0.0.1:56740/srcs/?task=Buy+milk
+            Browser sends GET request to URL http://127.0.0.1:56740/srcs/?task=Learn+js
                     v
             Server responds (reloads page)
                     v
-            Page refreshes → input cleared → URL shows ?
+            Page refreshes → input cleared → URL shows ? at the end
      */
     event.preventDefault(); // stops sending GET request
     
