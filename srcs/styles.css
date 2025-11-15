@@ -118,7 +118,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-  background-image: url(images/checked.png);
+  background-image: url(../images/checked.png);
   background-size: 150%;       /* shrink so it fits inside circle */
   background-repeat: no-repeat;
   background-position: center;
