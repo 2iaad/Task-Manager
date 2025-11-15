@@ -1,6 +1,6 @@
 # **TaskFlow — Simple & Stylish To-Do List Web App**
 
-![TaskFlow Screenshot](../images/screenshot.png)
+![TaskFlow Screenshot](images/Screenshot%202025-11-15%20at%2009.26.08.png)
 
 A clean and intuitive **task management web app** built with **HTML, CSS, and JavaScript**.  
 TaskFlow helps you stay organized with a smooth UI, interactive task handling, and a fully responsive layout.
